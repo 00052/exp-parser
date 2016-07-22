@@ -1,5 +1,5 @@
 /*
-** scan.y
+** main.c
 ** Expression Parser
 **
 ** By poilynx
