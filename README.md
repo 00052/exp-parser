@@ -6,10 +6,10 @@ You can write math expression to STDIN of calc and it will write result to STDOU
 
 build and run:
 
-	make && ./calc
+	$ make && ./calc
 
 test the program:
 
-	make test
+	$ make test
 
 
