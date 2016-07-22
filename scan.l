@@ -1,5 +1,5 @@
 /*
-** scan.y
+** scan.l
 ** Lex file to parse expression
 **
 ** By poilynx
@@ -32,7 +32,6 @@ word		[A-Za-z]+
 "^"	return CARET;
 "("	return LB;
 ")"	return RB;
-
 
 %%
 int yywrap() { 
