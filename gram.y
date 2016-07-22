@@ -73,8 +73,8 @@ E	: LB B RB {$$ = $2;}
 		}
 }
 	| NUMBER {$$ = $1;}
-	| PLUS B {$$ = $2;} %prec UMINUS
-	| MINUS B {$$ = - $2;} %prec UMINUS
+	| PLUS E {$$ = $2;} %prec UMINUS
+	| MINUS E {$$ = $2 * -1;} %prec UMINUS
 	;
 Y	: B X {
 		int i;
